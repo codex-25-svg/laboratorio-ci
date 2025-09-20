@@ -1,7 +1,7 @@
 name: CI
 
 on:
-    push:
+    push: 
         branches: ["main"]
     workflow_dispatch: 
 
@@ -12,3 +12,4 @@ jobs:
         steps:
             - name: "Mostrar mensaje"
               run: echo "Hola mundo"
+              
